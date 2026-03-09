@@ -4,10 +4,9 @@ A modern, robust, and extendable Python GUI tool for analyzing qPCR (Quantitativ
 
 ## Features
 
-- **Intuitive Modern UI:** Built with Tkinter and `ttkthemes` for a clean, user-friendly data mapping experience.
 - **Dynamic Control Mapping:** Auto-detects Targets and Samples. Allows mapping of a global Control Reference or unique Ref Gene/Ref Sample pairs **for every single Target independently**.
 - **Automated Outlier Removal:** Implements an advanced, biologically-aware Median Absolute Deviation (MAD) logic tailored for small-n groups (like biological triplicates) to automatically flag and drop extreme CT outliers before averaging.
-- **Custom Analysis Tasks:** Group samples by experimental subgroups (e.g., TPP vs Control) automatically based on metadata columns in your input sheet.
+- **Custom Analysis Tasks:** Group samples by experimental subgroups automatically based on metadata columns in your input sheet.
 - **Manual Data Omission:** Need to drop a specific Target-Sample combination for biological reasons? Easily exclude it via an interactive checkbox grid!
 - **Data Export:** Instantly outputs all intermediate calculations ($\Delta C_T$, $\Delta\Delta C_T$, RQ, and propagated asymmetric standard deviations) as a neat `.tsv` file.
 - **Publication-Ready Plots:** Auto-generates Relative Quantification (RQ) grouped barcharts with error bars using `matplotlib`.
