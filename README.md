@@ -35,7 +35,7 @@ pip install -r requirements.txt
    python qpcr_analyzer_gui.py
    ```
 2. **Step 1:** Load your `.xlsx` exported CT results.
-3. **Step 2:** Select which columns represent your `Sample`, `Target`, and `CT` values. Hit **Apply Mapping**.
+3. **Step 2:** Select which columns represent your `Sample`, `Target`, and `CT` values (optionally `Custom Task`, which will be represented as grouped values in the output). Hit **Apply Mapping**.
 4. **Step 3:** A scrollable grid will populate. Select the Reference Target (e.g., GAPDH, Actin) and Reference Sample for each Target. If most use the same controls, use the **Bulk Set All** menu.
 5. *(Optional)* Click **Select Omissions** to drop specific Target/Sample pairs from being analyzed.
 6. *(Optional)* Save your entire configuration mapping using **Save Config Template** at the top.
