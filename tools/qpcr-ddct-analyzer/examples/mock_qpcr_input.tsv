@@ -1,0 +1,9 @@
+Sample Name	Target Name	CT	Condition
+Control_1	GAPDH	18.10	Control
+Control_1	MYC	24.85	Control
+Control_2	GAPDH	18.05	Control
+Control_2	MYC	24.61	Control
+Treated_1	GAPDH	18.40	Treated
+Treated_1	MYC	22.95	Treated
+Treated_2	GAPDH	18.36	Treated
+Treated_2	MYC	23.10	Treated
