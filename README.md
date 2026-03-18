@@ -66,16 +66,18 @@ Example structure:
 bench-miyano/
 ├─ README.md
 ├─ tools/
-│  ├─ nuc_helper/
-│  │  ├─ nuc_helper.py
+│  ├─ helper/
+│  │  ├─ helper.sh
 │  │  ├─ README.md
 │  │  └─ examples/
-│  ├─ qpcr_ddct_analyzer/
-│  │  ├─ qpcr_ddct_analyzer.py
+│  ├─ analyzer/
+│  │  ├─ main.py
+│  │  ├─ module.py
+|  |  ├─ requirements.txt
 │  │  ├─ README.md
 │  │  └─ examples/
-│  └─ another_tool/
-│     ├─ script.py
+│  └─ calculator/
+│     ├─ calculator.py
 │     ├─ README.md
 │     └─ examples/
 └─ LICENSE
@@ -223,22 +225,6 @@ In general, prefer:
 
 ---
 
-## Example tools
-
-Potential tools in this repository may include:
-
-### `nuc_helper`
-
-A utility for cleaning and converting DNA/RNA sequences, checking validity, and optionally generating reverse complements.
-
-### `qpcr_ddct_analyzer`
-
-A utility for handling more complex qPCR group designs and helping users compute and inspect ΔΔCt-style analyses more easily.
-
-As the repo grows, additional tools can be added for other common wet-lab data tasks.
-
----
-
 ## How to use this repository
 
 You can browse the `tools/` directory and open the folder for any tool that matches your use case.
@@ -269,7 +255,7 @@ A tool does **not** need to be large or sophisticated to be valuable. Small scri
 
 ## License
 
-Choose a license appropriate for open-source reuse, such as MIT or BSD-3-Clause.
+This project is released under the MIT license.
 
 ---
 
