@@ -90,3 +90,10 @@ In general, prefer:
 - focused tools over large frameworks
 - explicit documentation over assumptions
 - practical examples over abstract descriptions
+
+---
+
+## Policy on AI-assisted contributions
+
+We are open to AI-assisted or vibe-coded contributions, as long as they meet the project guidelines and are carefully validated to ensure they are reliable, usable, and helpful. In fact, this project began from a vibe-coding idea, so we see these workflows as part of the project’s spirit when used responsibly.
+
