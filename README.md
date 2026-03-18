@@ -4,14 +4,6 @@
 
 The goal of this repository is to make everyday bench-facing data tasks easier, faster, and less frustrating by providing simple, practical, and well-documented utilities that solve real workflow problems.
 
-Examples of tools in this repo may include:
-
-- sequence manipulation helpers
-- qPCR analysis utilities
-- small data-cleaning workflows for common wet-lab outputs
-- assay-specific calculators or converters
-- lightweight command-line helpers for repetitive lab tasks
-
 This project is intentionally focused on **practical usefulness** over complexity. Each tool should be easy to understand, easy to run, and immediately helpful in real lab work.
 
 ---
