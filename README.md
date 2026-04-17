@@ -1,6 +1,6 @@
-# bench-miyano
+# Ai-bench
 
-**bench-miyano** is an open-source collection of handy scripts and small tools for wet-lab scientists.
+**Ai-bench** is an open-source collection of handy scripts and small tools for wet-lab scientists.
 
 The goal of this repository is to make everyday bench-facing data tasks easier, faster, and less frustrating by providing simple, practical, and well-documented utilities that solve real workflow problems.
 
